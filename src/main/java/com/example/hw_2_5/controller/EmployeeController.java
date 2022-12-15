@@ -1,13 +1,10 @@
 package com.example.hw_2_5.controller;
 
-import com.example.hw_2_5.model.Employee;
 import com.example.hw_2_5.service.EmployeeService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/employee")

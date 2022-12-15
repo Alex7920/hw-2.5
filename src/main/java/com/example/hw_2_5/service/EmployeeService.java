@@ -3,7 +3,6 @@ package com.example.hw_2_5.service;
 import com.example.hw_2_5.exception.EmployeeAlreadyAddedException;
 import com.example.hw_2_5.exception.EmployeeNotFoundException;
 import com.example.hw_2_5.exception.EmployeeStorageIsFullException;
-import com.example.hw_2_5.model.Employee;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
